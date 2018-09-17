@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="estilos.css">
+        <link rel="stylesheet" href="miniSell.css">
+</head>
+
+    <body style="background-color:powderblue">
+        <!--LOGO y Eslogan -->
+        <div class="div1" >  
+            <a href="home.html"><img border="1" alt="Cristal Leaf logo" src="media/logo.png"
+             width="200" height="150"></a>
+           <p class = "eslogan">Texto chido</p>
+          </div> 
+          <!--MENU -->
+<div id="menuBar">
+        <ul>
+                <li><a href="home.html" class="active">Inicio</a></li>
+                <li><a href="categorias.html">Categorias</a></li>
+                <li><a href="registro.html">Registro</a></li>
+                <li><a href="inicioSesion.html">Inicio Sesion</a></li>
+              </ul>
+</div>
+<br><br>
+<!-- crea articulo -->
+<div style=" margin: auto;
+width: 50%;
+background-color: rgba(13, 69, 77, 0.616);">
+        <form name = "publish"action="articulo.html"
+        style="text-align: center;" >
+          <p >
+              Título del articulo:  
+          </p>
+          <input type="text"  name="titulo" value="Orejas de Shrek">
+          <br>
+          <p >
+            Descripción del Articulo:  
+            </p> 
+        
+            <textarea rows="10" cols="50">
+I don't give a damn about my reputation 
+You're living in the past, it's a new generation 
+Hey, a girl can do what she wants to do 
+And that's what I'm gonna do 
+                     </textarea>
+                     <p >
+                            Precio:  
+                        </p>
+                        <input type="text"  name="precio" value="$$$$">
+                        <br>
+                        <p >
+                                Unidades:  
+                            </p>
+                            <input type="text"  name="unidades" value="4">
+                            <br>
+          <br>   <br>   <br>
+          <input type="submit" value="Publicar">
+          <input type = "reset" value="Cancelar">
+          
+        </form> 
+        
+       
+ </div>
+
+    </body>
+</html>

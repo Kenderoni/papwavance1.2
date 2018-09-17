@@ -1,0 +1,44 @@
+.div1 {
+    height: 153px;
+    background-color: teal; 
+    
+}
+.eslogan {
+    font-family: 'Eras ITC';
+    font-size: 50px;
+    float: right; 
+  
+             
+}
+/*MENU*/
+#menuBar{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+  
+}
+li a:hover {
+    background-color: rgb(0, 146, 139);
+}
+
+.active {
+    background-color: rgb(18, 160, 148);
+}
+li{
+     float: left;
+     text-decoration: none;
+     list-style-type: none; 
+}
+li a {
+   
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+
+
+

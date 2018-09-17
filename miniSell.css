@@ -1,0 +1,20 @@
+/*IMAGENES QUE DIRIGEN AL ARTICULO*/
+
+#divImg{
+    
+        height: 240px;
+        margin: auto;
+        width: 30%;
+        background-color: rgb(245, 140, 231);
+      
+    
+}
+#imagen{
+    display:block;
+    margin:auto;
+}
+#textArticle{
+    display:block;
+    margin:center;
+    text-align: center;
+}

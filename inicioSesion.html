@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <meta charset="utf-8">
+        <link rel="stylesheet" href="estilos.css">
+        <link rel="stylesheet" href="miniRegister.css">
+        <script src="valida.js"></script> 
+</head>
+
+    <body style="background-color:powderblue">
+        <!--LOGO y Eslogan -->
+        <div class="div1" >  
+            <a href="home.html"><img border="1" alt="Cristal Leaf logo" src="media/logo.png"
+             width="200" height="150"></a>
+           <p class = "eslogan">Texto chido</p>
+          </div> 
+          <!--MENU -->
+<div id="menuBar">
+        <ul>
+                <li><a href="home.html" class="active">Inicio</a></li>
+                <li><a href="categorias.html">Categorias</a></li>
+                <li><a href="registro.html">Registro</a></li>
+                <li><a href="inicioSesion.html">Inicio Sesion</a></li>
+              </ul>
+</div>
+<!--inicio de sesion -->
+<br>
+<div id= "divSes">
+       <h2 class = "pC">Ingrese su informacion, porfa</h2>
+
+       <form name = "login"action="perfil.html"onsubmit="return validaSesion()" >
+         <p >
+             Nickname:
+         </p>
+         <br>
+         <input type="text"  name="nombre" value="Nickname">
+         <br>
+         <p >
+               Contraseña:
+           </p> 
+         <br>
+         <input type="password" name="pass" value="1234">
+         
+         <br>
+         <input type="submit" value="Inicia Sesion!:D">
+         <br>
+         <input type="reset" value="limpiar">
+       </form> 
+       
+      
+</div>
+    </body>
+</html>

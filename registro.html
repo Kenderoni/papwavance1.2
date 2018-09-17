@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <meta charset="utf-8">
+        <link rel="stylesheet" href="estilos.css">
+        <link rel="stylesheet" href="miniRegister.css">
+        <script src="valida.js"></script> 
+</head>
+
+    <body style="background-color:rgb(135, 198, 206)">
+        <!--LOGO y Eslogan -->
+        <div class="div1" >  
+            <a href="home.html"><img border="1" alt="Cristal Leaf logo" src="media/logo.png"
+             width="200" height="150"></a>
+           <p class = "eslogan">Texto chido</p>
+          </div> 
+          <!--MENU -->
+<div id="menuBar">
+        <ul>
+                <li><a href="home.html" class="active">Inicio</a></li>
+                <li><a href="categorias.html">Categorias</a></li>
+                <li><a href="registro.html">Registro</a></li>
+                <li><a href="inicioSesion.html">Inicio Sesion</a></li>
+              </ul>
+</div>
+ <!--Formulario -->
+ <br>
+ <br>
+ <div id= "divReg">
+        <h2 class = "pC">Ingrese su informacion, porfa</h2>
+
+        <form name = "registra"action="home.html"onsubmit="return validateForm()" >
+          <p >
+              Nickname:
+          </p>
+          <br>
+          <input type="text"  name="nombre" value="Nickname">
+          <br>
+          <p >
+                Contraseña:
+            </p> 
+          <br>
+          <input type="password" name="pass" value="1234">
+          <br>
+          <p >
+                Correo:
+            </p> 
+          <br>
+          <input type="email" name="email" value="wakala@gmail.com">
+          <br>
+          <br>
+          <input type="submit" value="Registrarse!:D">
+        </form> 
+        
+       
+ </div>
+
+    </body>
+</html>
